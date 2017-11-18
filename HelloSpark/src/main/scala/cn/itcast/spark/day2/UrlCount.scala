@@ -15,7 +15,7 @@ object UrlCount {
     val sc = new SparkContext(conf)
 
     //rdd1将数据切分，元组中放的是（URL， 1）
-    val rdd1 = sc.textFile("D:\\itcast-大数据\\day29\\itcast.log").map(line => {
+    val rdd1 = sc.textFile("H:\\project\\spark\\HelloSpark\\itcast.log").map(line => {
       val f = line.split("\t")
       (f(1), 1)
     })
@@ -31,7 +31,7 @@ object UrlCount {
       it.toList.sortBy(_._3).reverse.take(3)
     })
 
-    println(rdd2.collect().toBuffer)
+    println(rdd4.collect().toBuffer)
     sc.stop()
 
   }
