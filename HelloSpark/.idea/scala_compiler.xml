@@ -5,7 +5,7 @@
       <parameters>
         <parameter value="-make:transitive" />
         <parameter value="-dependencyfile" />
-        <parameter value="D:\itcast-大数据\day29\下午\HelloSpark\target/.scala_dependencies" />
+        <parameter value="H:\project\spark\HelloSpark\target/.scala_dependencies" />
       </parameters>
     </profile>
   </component>
