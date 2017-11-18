@@ -2,6 +2,7 @@ package cn.itcast.spark.day2
 
 import java.net.URL
 
+import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
@@ -29,7 +30,7 @@ object AdvUrlCount {
       val host = new URL(url).getHost
       (host, url, t._2)
     })
-
+    RDD
     //println(rdd3.collect().toBuffer)
 
 //    val rddjava = rdd3.filter(_._1 == "java.itcast.cn")

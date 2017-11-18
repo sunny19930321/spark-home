@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ae36842-8c00-4a7a-b7a7-b9656dc75592" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/mycode/UrlCount.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/AdvUrlCount$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/AdvUrlCount$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/AdvUrlCount$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/AdvUrlCount$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/AdvUrlCount$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/AdvUrlCount$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/AdvUrlCount$$anonfun$main$1$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/AdvUrlCount$$anonfun$main$1$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/AdvUrlCount$$anonfun$main$1$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/AdvUrlCount$$anonfun$main$1$$anonfun$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/AdvUrlCount$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/AdvUrlCount$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/AdvUrlCount$.class" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/AdvUrlCount$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/ForeachDemo$.class" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/ForeachDemo$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/UrlCount$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/UrlCount$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/UrlCount$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/UrlCount$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/UrlCount$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/UrlCount$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/UrlCount$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/UrlCount$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/UrlCount$$anonfun$5$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/UrlCount$$anonfun$5$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/UrlCount$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/UrlCount$$anonfun$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/UrlCount$.class" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/spark/day2/UrlCount$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day3/CustomSort.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day3/IPLocation(1).scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day3/IPLocation.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day3/IpDemo.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day3/JdbcRDDDemo.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day3/UrlCountPartition(1).scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day3/UrlCountPartition.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/UrlCount.scala" afterPath="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/UrlCount.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.scala_dependencies" afterPath="$PROJECT_DIR$/target/.scala_dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/AdvUrlCount.scala" afterPath="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/AdvUrlCount.scala" />
     </list>
     <ignored path="HelloSpark.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +28,9 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="HelloSpark" />
+    <favorites_list name="HelloSpark">
+      <favorite_root url="file://$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/AdvUrlCount.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -53,11 +44,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdvUrlCount.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdvUrlCount.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/AdvUrlCount.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+            <state relative-caret-position="293">
+              <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+              <folding>
+                <element signature="e#30#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IpDemo.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day3/IpDemo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Aggregator.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1-sources.jar!/org/apache/spark/Aggregator.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-90">
+              <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdvUserLocation.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/AdvUserLocation.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserLocation.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/UserLocation.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="21" column="72" lean-forward="true" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -81,11 +114,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/AdvUserLocation.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/UserLocation.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/AdvUrlCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day1/WordCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/ForeachDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/UrlCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/mycode/UrlCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/AdvUrlCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day3/IpDemo.scala" />
       </list>
     </option>
   </component>
@@ -147,10 +181,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="268" />
-    <option name="y" value="15" />
-    <option name="width" value="1700" />
-    <option name="height" value="889" />
+    <option name="x" value="747" />
+    <option name="y" value="83" />
+    <option name="width" value="1494" />
+    <option name="height" value="917" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -260,7 +294,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="day2" />
+              <option name="myItemId" value="day3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,7 +362,11 @@
     <property name="Repository.Attach.Sources" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\project\spark\HelloSpark\src\main\scala\cn\itcast\spark" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\project\spark\HelloSpark\src\main\scala\cn\itcast\spark" />
       <recent name="H:\project\spark\HelloSpark" />
       <recent name="D:\itcast-大数据\day29\下午\HelloSpark\src\main\files\usercount" />
       <recent name="D:\itcast-大数据\day29\下午\HelloSpark\src\main\files\userlocal" />
@@ -980,16 +1018,15 @@
       <workItem from="1510471473711" duration="1074000" />
       <workItem from="1510472739284" duration="1002000" />
       <workItem from="1510480160107" duration="685000" />
-      <workItem from="1510987011086" duration="3416000" />
+      <workItem from="1510987011086" duration="7407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6177000" />
+    <option name="totallyTimeSpent" value="10168000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="268" y="15" width="1700" height="889" extended-state="0" />
-    <editor active="true" />
+    <frame x="747" y="83" width="1494" height="917" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1007,7 +1044,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17682926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20223153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26941746" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1283,13 +1320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/UserLocation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day1/WordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1302,14 +1332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="77" column="60" lean-forward="false" selection-start-line="77" selection-start-column="60" selection-end-line="77" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/AdvUserLocation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1335,7 +1357,7 @@
         <state relative-caret-position="303">
           <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="31" selection-end-column="6" />
           <folding>
-            <element signature="e#30#49#0" expanded="true" />
+            <element signature="e#30#49#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1350,10 +1372,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/AdvUserLocation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/UserLocation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" column="72" lean-forward="true" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1-sources.jar!/org/apache/spark/rdd/RDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="908" column="33" lean-forward="false" selection-start-line="908" selection-start-column="33" selection-end-line="908" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1-sources.jar!/org/apache/spark/Aggregator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1-sources.jar!/org/apache/spark/rdd/ShuffledRDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="97" column="49" lean-forward="true" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day2/AdvUrlCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        <state relative-caret-position="293">
+          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="e#30#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/itcast/spark/day3/IpDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
