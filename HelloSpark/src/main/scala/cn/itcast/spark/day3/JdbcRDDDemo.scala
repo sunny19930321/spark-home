@@ -8,6 +8,16 @@ import org.apache.spark.{SparkConf, SparkContext}
 /**
   * Created by ZX on 2016/4/12.
   */
+
+import java.sql.{Connection, Date, DriverManager, PreparedStatement}
+
+import org.apache.spark.{SparkConf, SparkContext}
+
+/**
+  * Created by root on 2016/5/18.
+  */
+
+
 object JdbcRDDDemo {
 
   def main(args: Array[String]) {
