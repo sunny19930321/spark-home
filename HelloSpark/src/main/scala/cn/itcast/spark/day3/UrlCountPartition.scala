@@ -17,7 +17,7 @@ object UrlCountPartition {
     val sc = new SparkContext(conf)
 
     //rdd1将数据切分，元组中放的是（URL， 1）
-    val rdd1 = sc.textFile("c://itcast.log").map(line => {
+    val rdd1 = sc.textFile("H:\\project\\spark\\HelloSpark\\src\\main\\files\\usercount\\itcast.log").map(line => {
       val f = line.split("\t")
       (f(1), 1)
     })
@@ -33,13 +33,32 @@ object UrlCountPartition {
 
     val hostParitioner = new HostParitioner(ints)
 
-//    val rdd4 = rdd3.partitionBy(new HashPartitioner(ints.length))
+    //val rdd4 = rdd3.partitionBy(new HashPartitioner(ints.length))
+
+    /**
+      *     //    val rdd33 = rdd3.collect().toBuffer
+           //    println(rdd33)
+      * ArrayBuffer((php.itcast.cn,(http://php.itcast.cn/php/course.shtml,459)),
+      * (java.itcast.cn,(http://java.itcast.cn/java/video.shtml,496)),
+      * (java.itcast.cn,(http://java.itcast.cn/java/course/base.shtml,543)),
+      * (java.itcast.cn,(http://java.itcast.cn/java/course/android.shtml,501)),
+      * (net.itcast.cn,(http://net.itcast.cn/net/video.shtml,521)),
+      * (java.itcast.cn,(http://java.itcast.cn/java/course/hadoop.shtml,506)),
+      * (net.itcast.cn,(http://net.itcast.cn/net/course.shtml,521)),
+      * (java.itcast.cn,(http://java.itcast.cn/java/course/cloud.shtml,1028)),
+      * (php.itcast.cn,(http://php.itcast.cn/php/video.shtml,490)),
+      * (java.itcast.cn,(http://java.itcast.cn/java/teacher.shtml,482)),
+      * (php.itcast.cn,(http://php.itcast.cn/php/teacher.shtml,464)),
+      * (net.itcast.cn,(http://net.itcast.cn/net/teacher.shtml,512)),
+      * (java.itcast.cn,(http://java.itcast.cn/java/course/javaee.shtml,1000)),
+      * (java.itcast.cn,(http://java.itcast.cn/java/course/javaeeadvanced.shtml,477)))
+      */
 
     val rdd4 = rdd3.partitionBy(hostParitioner).mapPartitions(it => {
       it.toList.sortBy(_._2._2).reverse.take(2).iterator
     })
 
-    rdd4.saveAsTextFile("c://out4")
+    rdd4.saveAsTextFile("H:\\project\\spark\\HelloSpark\\src\\main\\out")
 
 
     //println(rdd4.collect().toBuffer)
