@@ -19,7 +19,7 @@ object SQLDemo {
       Person(fields(0).toLong, fields(1), fields(2).toInt)
     })
 
-    import sqlContext.implicits._
+    import sqlContext.implicits._ //隐式转换
     val personDf = personRdd.toDF
 
     personDf.registerTempTable("person")
