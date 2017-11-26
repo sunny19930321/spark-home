@@ -1,11 +1,10 @@
-package cn.itcast.spark.day5
-
-import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.streaming.{Seconds, StreamingContext}
+package cn.itcast.spark.day5;
 
 /**
   * Created by root on 2016/5/21.
   */
+import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.streaming.{Seconds, StreamingContext}
 object StreamingWordCount {
 
   def main(args: Array[String]) {
