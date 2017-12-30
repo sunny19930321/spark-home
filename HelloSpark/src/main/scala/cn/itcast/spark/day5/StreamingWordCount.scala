@@ -15,7 +15,7 @@ object StreamingWordCount {
     val sc = new SparkContext(conf)
     val ssc = new StreamingContext(sc, Seconds(5))
     //接收数据
-    val ds = ssc.socketTextStream("172.16.0.11", 8888)
+    val ds = ssc.socketTextStream("192.168.10.130", 8888)
     //DStream是一个特殊的RDD
     //hello tom hello jerry
     val result = ds.flatMap(_.split(" ")).map((_, 1)).reduceByKey(_+_)

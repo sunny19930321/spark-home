@@ -29,7 +29,7 @@ object StateFulWordCount {
     sc.setCheckpointDir("c://ck")
     val ssc = new StreamingContext(sc, Seconds(5))
 
-    val ds = ssc.socketTextStream("172.16.0.11", 8888)
+    val ds = ssc.socketTextStream("192.168.10.130", 8888)
     //DStream是一个特殊的RDD
     //hello tom hello jerry
     val result = ds.flatMap(_.split(" ")).map((_, 1)).updateStateByKey(updateFunc, new HashPartitioner(sc.defaultParallelism), true)
